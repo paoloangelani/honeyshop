@@ -1,3 +1,159 @@
 body {
-    background-color: aqua;
+    justify-items: center;
+}
+
+nav {
+    background-color: #FEF7E2;
+    border-radius: 50px;
+    display: flex;
+    background-color: #FEF7E2;
+    border-radius: 70px;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1em;
+
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-shop {
+    background-color: #FFDF7F;
+    border-radius: 60px;
+    width: 15rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav div p {
+    font-weight: bold;
+    font-size: 25px;
+    color: #4e3323;
+    margin-left: 13px;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin-top: 10px;
+    height: 8rem;
+}
+
+button {
+    border: none;
+    display: flex;
+    background-color: #FFDF7F;
+    border-radius: 60px;
+    width: 7rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+    font-weight: bold;
+    color: #4e3323;
+}
+
+
+
+body {
+    width: 300px;
+    height: 350px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+}
+
+.card img {
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+    width: 100%;
+    height: 700px;
+
+}
+
+
+.center h3 {
+    color: rgb(138, 78, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0.1em;
+    font-weight: 900;
+
+
+}
+
+.center p {
+    color: rgb(138, 78, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text-conteiner {
+    height: 100%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 0;
+    color: rgb(138, 78, 0);
+}
+
+.prezzo p {
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.bottone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(138, 78, 0);
+    border: 1px solid rgb(252, 172, 68);
+    border-radius: 80px;
+    background-color: rgb(250, 203, 141);
+    cursor: pointer;
+    width: 200px;
+    margin-left: 50px;
+}
+
+h2,
+h1 {
+    text-align: center;
+    color: rgb(138, 78, 0);
+    ;
+}
+
+h3 {
+    color: rgb(138, 78, 0);
+
+}
+
+.description {
+    background-color: #FEF7E2;
+    border-radius: 30px;
+}
+
+.diobestia {
+    display: flex;
+    width: 15rem;
 }
